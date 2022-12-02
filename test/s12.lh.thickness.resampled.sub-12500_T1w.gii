@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GIFTI SYSTEM "http://www.nitrc.org/frs/download.php/115/gifti.dtd">
+<GIFTI Version="1.0"  NumberOfDataArrays="3">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[SurfaceID]]></Name>
+         <Value><![CDATA[s12.lh.thickness.resampled.sub-12500_T1w.gii]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable/>
+   <DataArray  ArrayIndexingOrder="ColumnMajorOrder"
+               DataType="NIFTI_TYPE_FLOAT32"
+               Dim0="163842"
+               Dim1="3"
+               Dimensionality="2"
+               Encoding="ExternalFileBinary"
+               Endian="LittleEndian"
+               ExternalFileName="s12.lh.thickness.resampled.sub-12500_T1w.dat"
+               ExternalFileOffset="0"
+               Intent="NIFTI_INTENT_POINTSET">
+      <MetaData>
+         <MD>
+            <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+            <Value><![CDATA[CortexLeft]]></Value>
+         </MD>
+         <MD>
+            <Name><![CDATA[Name]]></Name>
+            <Value><![CDATA[/brain/babri_in/sangf/Data/D_desc-bnu_sca-old/derivatives/cat/sub-12500/surf/s12.lh.thickness.resampled.sub-12500_T1w.gii]]></Value>
+         </MD>
+      </MetaData>
+      <CoordinateSystemTransformMatrix>
+         <DataSpace><![CDATA[NIFTI_XFORM_UNKNOWN]]></DataSpace>
+         <TransformedSpace><![CDATA[NIFTI_XFORM_TALAIRACH]]></TransformedSpace>
+         <MatrixData>1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 </MatrixData>
+      </CoordinateSystemTransformMatrix>
+      <Data></Data>
+   </DataArray>
+   <DataArray  ArrayIndexingOrder="ColumnMajorOrder"
+               DataType="NIFTI_TYPE_INT32"
+               Dim0="327680"
+               Dim1="3"
+               Dimensionality="2"
+               Encoding="ExternalFileBinary"
+               Endian="LittleEndian"
+               ExternalFileName="s12.lh.thickness.resampled.sub-12500_T1w.dat"
+               ExternalFileOffset="1966104"
+               Intent="NIFTI_INTENT_TRIANGLE">
+      <MetaData>
+         <MD>
+            <Name><![CDATA[TopologicalType]]></Name>
+            <Value><![CDATA[Closed]]></Value>
+         </MD>
+         <MD>
+            <Name><![CDATA[Name]]></Name>
+            <Value><![CDATA[/brain/babri_in/sangf/Data/D_desc-bnu_sca-old/derivatives/cat/sub-12500/surf/s12.lh.thickness.resampled.sub-12500_T1w.gii]]></Value>
+         </MD>
+      </MetaData>
+      <Data></Data>
+   </DataArray>
+   <DataArray  ArrayIndexingOrder="ColumnMajorOrder"
+               DataType="NIFTI_TYPE_FLOAT32"
+               Dim0="163842"
+               Dimensionality="1"
+               Encoding="ExternalFileBinary"
+               Endian="LittleEndian"
+               ExternalFileName="s12.lh.thickness.resampled.sub-12500_T1w.dat"
+               ExternalFileOffset="5898264"
+               Intent="NIFTI_INTENT_SHAPE">
+      <MetaData>
+      </MetaData>
+      <Data></Data>
+   </DataArray>
+</GIFTI>
